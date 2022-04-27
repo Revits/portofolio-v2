@@ -1,0 +1,92 @@
+:root{
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: 'Anek Odia', sans-serif;
+  --lato-font: 'Lato', sans-serif;
+  --jakarta-font: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #820027bf;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menuText{
+    font-size: 12vw ;
+    font-family: 'Poppins', sans-serif;
+    color: #820027bf;
+    
+}
+
+.headerImg{
+  width: 400px;
+  height: 600px;
+}
+
+.flexboxHeader3 > h1 {
+  font-size: 3vw ;
+  font-family: 'Poppins', sans-serif;
+  color: #f1f1f1;
+}
+
+.secondSectionText{
+  font-size: 200px;
+  font-weight: 150;
+}
+
+.secondSectionTextSpan {
+  color: #820027bf;
+  font-style: italic;
+}
+
+.myBio {
+  font-family: var(--main-font);
+  color: #2a2929bf;
+}
+
+.skillSetHeader{
+  font-family: vvar(--secondary-font);
+  color: #820027bf;
+}
+
+.backgroundSVG{
+	background-image: url("data:image/svg+xml,%3Csvg width='948' height='452' viewBox='0 0 948 452' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M412 264L948 0V452H0L412 264Z' fill='%23C4C4C4'/%3E%3C/svg%3E");
+  background-size: cover;
+}
